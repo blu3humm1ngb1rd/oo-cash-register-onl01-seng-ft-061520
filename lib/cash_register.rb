@@ -10,7 +10,7 @@ class CashRegister
 
   def add_item(title, price, quantity = 1)
     #binding.pry
-    @items.times {|x| @items << x}  
+      
     price = price*quantity
     @total = @total + price
     
