@@ -16,6 +16,7 @@ class CashRegister
   def apply_discount
     #binding.pry
     @total = (@total.to_f)*(0.8)
+    puts "The total is #{total}."
   end 
 
 end 
