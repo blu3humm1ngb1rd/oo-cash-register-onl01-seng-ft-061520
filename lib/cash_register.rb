@@ -13,8 +13,8 @@ class CashRegister
     #binding.pry
     quantity.times {@items << title}
      
-    price = price*quantity
-    @total = @total + price
+    @last_transaction = price*quantity
+    @total = @total + @last_transaction
     
   end 
 
