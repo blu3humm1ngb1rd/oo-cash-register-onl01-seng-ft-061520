@@ -15,7 +15,7 @@ class CashRegister
 
   def apply_discount
     #binding.pry
-    if discount = 0 
+    if @discount = 0 
       "There is no discount to apply."
     else 
     @total = (@total.to_f)*(0.8)
